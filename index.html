@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game</title>
+    </head>
+    <body>
+        <script>
+            let game=['Rock','Paper','Scissors'];
+            let playerSelection=prompt("Enter your selection");
+    
+
+            function computerPlay(game){
+               random= game[Math.floor(Math.random())*game.length];
+                return random;
+             }
+function playGame(playerSelection,computerSelection){
+    computerPlay(game);
+     computerSelection=random;
+    if (playerSelection==computerSelection){
+        console.log("YOU WIN");
+    
+    }
+    else {
+            console.log("you lose!");
+        }
+
+    }
+
+        </script>
+    </body>
+</html>
